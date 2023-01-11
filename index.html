@@ -19,9 +19,15 @@
       body {
         font-family: "Outfit", sans-serif;
         font-weight: 400;
+        font-size: 15px;
+        background-color: hsl(212, 45%, 89%);
+        color: hsl(220, 15%, 55%);
       }
       h1 {
         font-weight: 700;
+        color: hsl(218, 44%, 22%);
+      }
+      p {
       }
       .attribution {
         font-size: 11px;
@@ -40,24 +46,28 @@
     />
   </head>
 
-  <body class="bg-blue-200 grid">
-    <figure
-      class="mt-32 place-self-center bg-white box-border h-400 w-80 p-3 rounded-xl shadow-xl"
+  <body role="body" class="grid min-h-screen place-items-center">
+    <main
+      role="main"
+      class="place-self-center bg-white box-border h-400 w-80 p-3 rounded-xl shadow-xl"
     >
       <img src="images/image-qr-code.png" alt="QR Code" class="rounded-xl" />
-      <h1 class="text-xl font-black text-center text-slate-700 p-2">
+      <h1 class="text-xl font-black text-center text-slate-700 p-3">
         Improve your front-end skills by building projects
       </h1>
-      <p class="text-center text-gray-500 p-2">
+      <p class="text-center p-3">
         Scan the QR code to visit Frontend Mentor and take your coding skills to
         the next level
       </p>
-    </figure>
-    <div class="attribution absolute inset-x-0 bottom-0 h-10">
+    </main>
+    <footer
+      role="contentinfo"
+      class="attribution absolute inset-x-0 bottom-0 h-10"
+    >
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Ziane Maamar</a>.
-    </div>
+      >. Coded by <a href="https://twitter.com/drxdesign">Ziane Maamar</a>.
+    </footer>
   </body>
 </html>
